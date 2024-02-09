@@ -2,13 +2,19 @@ package com.example.demo;
 
 import java.time.Duration;
 
+
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.input.Prompt;
 import dev.langchain4j.model.input.structured.StructuredPrompt;
 import dev.langchain4j.model.input.structured.StructuredPromptProcessor;
 import dev.langchain4j.model.openai.OpenAiChatModel;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
+
 
 public class _03_StructuredPromptTemplates {
+	
 	@StructuredPrompt({
 	    "Design a medical insurance plan for {{coverageType}} with the following features:",
 	    "Structure your answer as follows:",
@@ -36,6 +42,7 @@ public class _03_StructuredPromptTemplates {
 		}
 		
 	}
+	
 	public static void main(String[] args) {
 		Duration duration = Duration.ofSeconds(60);
 		ChatLanguageModel model = OpenAiChatModel.builder()
@@ -52,5 +59,6 @@ public class _03_StructuredPromptTemplates {
 		System.out.println(plan);
 
 	}
-
+	
+	
 }
