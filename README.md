@@ -1,4 +1,5 @@
-#JavaChainMagic
-Add a touch of AI 'Magic' to your Java applications effortlessly. Integrate 'Chain' from LangChain4J seamlessly to unlock powerful AI capabilities using the Java version of LangChain (LangChain4J).
+# JavaChainMagic: Integrate LangChain AI into Your Java Applications
 
-##demo-langchain
+## Overview
+
+Add a touch of AI 'Magic' to your Java applications effortlessly. Integrate 'Chain' from LangChain4J seamlessly
