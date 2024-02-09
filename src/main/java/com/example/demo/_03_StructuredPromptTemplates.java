@@ -39,7 +39,7 @@ public class _03_StructuredPromptTemplates {
 	public static void main(String[] args) {
 		Duration duration = Duration.ofSeconds(60);
 		ChatLanguageModel model = OpenAiChatModel.builder()
-				.apiKey(ApiKeys.OPENAI_KEY)
+				.apiKey(ApiKeys.OPENAI_API_KEY)
 				.timeout(duration)
 				.build();
 		

@@ -9,7 +9,7 @@ public class _01_ModelParameters {
 	public static void main(String [] args) {
         Duration duration = Duration.ofSeconds(60);
 		ChatLanguageModel model = OpenAiChatModel.builder()
-				.apiKey(ApiKeys.OPENAI_KEY)
+				.apiKey(ApiKeys.OPENAI_API_KEY)
 				.temperature(0.3)
 				.timeout(duration)
 				.logRequests(true)

@@ -13,7 +13,7 @@ public class _02_PromptTemplates {
 	public static void main(String[] args) {
 		Duration duration = Duration.ofSeconds(60);
 		ChatLanguageModel model = OpenAiChatModel.builder()
-				.apiKey(ApiKeys.OPENAI_KEY)
+				.apiKey(ApiKeys.OPENAI_API_KEY)
 				.timeout(duration)
 				.build();
 		String template = "Create a recipe for a {{dishType}} with the following ingredients: {{ingredients}}";
