@@ -23,3 +23,15 @@ Streaming generation allows you to receive model responses in real-time, which i
 The chat memory allows you to maintain context and history during a conversation. This enhances the interaction with the OpenAiStreamingChatModel, allowing the model to provide responses that are contextually relevant based on the conversation history.
 
 ![Memory-output](images/memory.png)
+
+### -Few Shot with chat memory
+Abuse the memory to do what you want to do, also used in the fine-tuning 
+
+##### The output of negative feedback for example:
+
+![FewShot-Negative](images/FewShot-Negative.png)
+
+##### And this is for positive feedback:
+
+![FewShot-Positive](images/FewShot-Positive.png)
+
