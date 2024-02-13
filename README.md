@@ -33,5 +33,5 @@ Abuse the memory to do what you want to do, also used in the fine-tuning
 
 ##### And this is for positive feedback:
 
-![FewShot-Positive](images/FewShot-Positive.png)
+![FewShot-Positive](images/FewShot-positive.png)
 
